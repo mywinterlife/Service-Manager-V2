@@ -1,0 +1,96 @@
+#########################
+# IntelliJ / JetBrains  #
+#########################
+
+# Project settings
+.idea/
+*.iml
+
+# IntelliJ build output
+out/
+
+# Local history, shelves, etc.
+.idea/**/shelf/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/libraries
+.idea/**/gradle.xml
+.idea/**/assetWizardSettings.xml
+.idea/**/archives/
+.idea/**/dataSources/
+.idea/**/dataSources.local.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+.idea/**/copilot.data.migration.*
+
+#########################
+# Java                  #
+#########################
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ
+*.ctxt
+
+# Mobile tools for Java (J2ME)
+.mtj.tmp/
+
+#########################
+# Build Tools           #
+#########################
+
+# Maven
+target/
+
+# Gradle
+.build/
+.gradle/
+build/
+
+# Eclipse (just in case)
+*.classpath
+*.project
+*.settings/
+
+#########################
+# OS / Editor Noise     #
+#########################
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code / other editors
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+#########################
+# Archives / misc       #
+#########################
+
+# Common archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+~$*
