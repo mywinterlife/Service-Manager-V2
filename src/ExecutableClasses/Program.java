@@ -2,13 +2,18 @@ package ExecutableClasses;
 
 /**
  * Entry point for new projects created from this template.
- *
+ * <p>
  * You can rename this class or move it into another package
  * when starting a new project.
  */
-public class Program {
+//Program is meant to
+public class Program
+{
 
     public static void main(String[] args) {
-        System.out.println("Java project template is running.");
+        //Add vehicles
+        //Create ServiceManager
+        //Do an oil change
+        //Print out ServiceRecords
     }
 }
