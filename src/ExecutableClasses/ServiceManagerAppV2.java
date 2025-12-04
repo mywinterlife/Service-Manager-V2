@@ -6,7 +6,10 @@ package ExecutableClasses;
  * You can rename this class or move it into another package
  * when starting a new project.
  */
-public class Program {
+//*renamed
+
+public class ServiceManagerAppV2
+{
 
     public static void main(String[] args) {
         System.out.println("Java project template is running.");
