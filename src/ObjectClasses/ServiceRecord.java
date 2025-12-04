@@ -23,11 +23,14 @@ public class ServiceRecord
     LocalDateTime serviceDate;
     double totalCost;
 
+    //Create Constructor for ServiceRecord. Similar to car/truck/vehicle add
     public ServiceRecord(int id, ServiceEnum service, String notes, double totalCost)
     {
         this.id = id;
         this.service = service;
         this.notes = notes;
+
+        //Create service date as now. Dont pass it in as parameter because its always now for a new record.
         this.serviceDate = LocalDateTime.now();
         this.totalCost = totalCost;
     }
