@@ -1,7 +1,6 @@
-package ObjectClasses;
+package ObjectClasses.Vehicles;
 
 import Enums.OilTypeEnum;
-import Enums.ServiceEnum;
 
 //Define, declare and initialize requirements for Vehicles
 //Inheritance will play a crucial role with this class.

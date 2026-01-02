@@ -1,7 +1,5 @@
 package ExecutableClasses;
 
-import ObjectClasses.Car;
-
 /**
  * Entry point for new projects created from this template.
  * <p>

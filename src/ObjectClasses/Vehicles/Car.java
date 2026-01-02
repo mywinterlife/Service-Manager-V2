@@ -1,4 +1,4 @@
-package ObjectClasses;
+package ObjectClasses.Vehicles;
 import Enums.OilTypeEnum;
 
 public class Car extends Vehicle
