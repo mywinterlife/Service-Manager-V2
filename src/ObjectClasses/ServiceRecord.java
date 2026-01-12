@@ -1,9 +1,8 @@
 package ObjectClasses;
 
-import Enums.ServiceEnum;
+import Enums.ServiceEnums;
 
 import java.time.LocalDateTime;
-import java.util.Locale;
 
 public class ServiceRecord
 {
@@ -18,13 +17,13 @@ public class ServiceRecord
     //If not extending another class then this.<>property> = <property name>; for each property.
 
     int id;
-    ServiceEnum service;
+    ServiceEnums service;
     String notes;
     LocalDateTime serviceDate;
     double totalCost;
 
     //Create Constructor for ServiceRecord. Similar to car/truck/vehicle add
-    public ServiceRecord(int id, ServiceEnum service, String notes, double totalCost)
+    public ServiceRecord(int id, ServiceEnums service, String notes, double totalCost)
     {
         this.id = id;
         this.service = service;
